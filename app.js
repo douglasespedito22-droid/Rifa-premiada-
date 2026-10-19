@@ -1,6 +1,6 @@
 /* Configure as chaves públicas do Supabase abaixo. Nunca use senha do banco ou service_role no navegador. */
-const SUPABASE_URL = "COLE_AQUI_A_URL_DO_SEU_PROJETO";
-const SUPABASE_ANON_KEY = "COLE_AQUI_SUA_CHAVE_PUBLICA_ANON";
+const SUPABASE_URL = "https://iuwthzgxkkvrudaemgrj.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_Zd9X1FQ0TTS_DIphqjjWlA_ywXn8NjC";
 const ADMIN_EMAIL = "ifroalimentos.25@gmail.com";
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const connected=()=>window.supabase&&!SUPABASE_URL.startsWith("COLE_AQUI")&&!SUPABASE_ANON_KEY.startsWith("COLE_AQUI");
